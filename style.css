@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height:100vh;
-    background: #e3f2fd;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif');
 
 }
 .wrapper{

@@ -19,9 +19,17 @@ const changeFoodPosition = () => {
 }
 
 const handleGameOver = () => {
+    
+    Swal.fire({
+        icon: 'error',
+        title: 'Game Over, volvé a empezar!',
+        showConfirmButton: false,
+        timer: 10000,
+    }) 
+    return
     clearInterval(setIntervalId);
-    alert("Game Over!");
     location.reload();
+
 }
 
 
